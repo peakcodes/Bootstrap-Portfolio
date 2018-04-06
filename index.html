@@ -1,160 +1,204 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <title>Tim Hill</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <style>
+    body {
+        height: 100%;
+        /* The image used */
+        background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
 
-body {
-    height: 100%;
-    /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .container {
+        width: 100%;
+        height: 100%;
+        min-width: 1000px;
+        min-height: 1000px;
+    }
 
-.container {
-width: auto;
-height: auto;
-min-width: 1000px;
-min-height: 1000px;
+    .connect {
+        color: blue;
+        text-align: center;
+        font-weight: bold;
+    }
 
-}
+    .connectm {
+        padding: 5%;
+    }
 
-#me {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
+    .links {
+        float: center;
+        margin-left: 25px;
+    }
 
-.biosection {
-    background-color: grey;
-    border-width: 2px;
-    border-color: grey;
-    border-width: 10px;
-    padding: 30px;
+    .nav {
+        margin-left: 80px;
+    }
 
-}
+    .portfolio {
+        padding: 30px;
+        background-color: transparent;
+    }
 
-.nav {
-    margin-left: 80px;
-}
+    .border {
+        border-width: 10%;
+        border-color: yellow;
+    }
 
-.openbio {
-    background-color: transparent;
-}
+    #empty {
+        background-color: transparent;
+        width: 80%;
+    }
 
-#image {
-    float: left;
-    padding: 5px;
+    #footertext {
+        text-align: center;
+        background-color: black;
+        color: beige;
+        text-anchor: end;
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        padding: 2%;
+    }
 
-}
+    #pagename {
+        color: blue;
+    }
 
-.bio {
-    color: white;
-}
+    .portfolio-item {
+        float: left;
+        padding: 10px;
 
-.connect {
-    color: blue;
-    text-align: center;
-    font-weight: bold;
-}
+    }
 
-.connectm {
-    padding: 5%;
-}
+    .itemname {
+        color: white;
+        background-color: gray;
+    }
 
-.links {
-    float: center;
-    margin-left: 25px;
-}
+    .imagep {
+        float: center;
+        margin-left: 20px;
+    }
 
-#empty {
-    background-color: transparent;
-    width: 80%;
-}
-
-#footertext {
-    text-align: center;
-    background-color:black;
-    color: white;
-    text-anchor: end;
-    position:fixed;
-    bottom: 10px;
-    width: 100%;
-    padding: 2%;
-}
-
+    /* Cannot figure out how to center image over text. I did not want the text over the image. */
 </style>
 
 <body>
-        <div class="container">
 
-                <div class="row">
-                    <div class=".col-xs-1.5 col-md-1"></div>
-                    <div class=".col-xs-4.5 col-md-3">
-                    <h1 id="myname">Tim Hill<h1>
-                    </div>
-                    <div class=".col-xs-7.5 col-md-5"></div>
-                    <div class=".col-xs-4.5 col-md-3">
-                    <ul class="nav nav-pills">
-                        <li role="presentation" class="active"><a href="./index.html">Home</a></li>
-                        <li role="presentation"><a href="./portfolio.html">Profile</a></li>
-                        <li role="presentation"><a href="./contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </div>
-    
-<!-- Add About me with picture and bio -->
+    <div class="container">
 
-            <div class="row">
-            <div class=".col-xs-1.5 col-md-1"></div>
-            <div class="biosection .col-xs-12 col-md-8">
-            <h1 id="me">About Me</h1>
-            <hr>
-            <img id="image" width="200" height="200" src="./Images/Headshot.jpg">
-            <p class="bio">Hello near and far internet strangers. My name is Tim Hill and I have dipped my pen in a number of different inks over the years. I have experinece in Agricultural Business, Enterprise Software Sales, Non Porfit Consulting, Blockchain, Distributed Ledger Technology and Web Development. All of these skills have come through many expierences with each buidling on the last to shape the professional I am today. One does not stop learning as life has become a continual learning proces.</p>
-
-            <br>
-
-            <p class="bio">When I have free time, I find myself outdoors or evaluating financial markets. I partiuclar like hiking, skiing, studying cryptocurrecy and reading. Furthermore, expanding my skillset and continuing my education.</p>
-            </div>
-
-        <div class="connectm .col-xs-4.5 col-md-3">
-        <h3 class="connect">Connect with me</h3>
-        <hr>
-        <a href="https://github.com/peakcodes">
-        <img class="links img-rounded" width="50" height="40" src="./Images/github-mark.png"></a>
-        <a href="https://www.linkedin.com/in/tim-hill-66141222">
-        <img class="links img-rounded" width="50" height="40" src="./Images/square-linkedin-512.png"></a>   
-        <a href="https://stackoverflow.com/users/9284788/tim-h">
-        <img class="links img rounded" width="50" height="40" src="./Images/stackoverflow.png"></a>
-        
-        </div>
         <div class="row">
-            <div class="empty .col-xs-18 col-md-12">
+            <div class=".col-xs-1.5 col-md-1"></div>
+            <div class=".col-xs-4.5 col-md-3">
+                <h1>Tim Hill
+                    <h1>
             </div>
-            </div> 
+            <div class=".col-xs-7.5 col-md-5"></div>
+            <div class=".col-xs-4.5 col-md-3">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./portfolio.html">Profile</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
-<!-- Add background and fill to footer -->
-    
-<div class="row">
-    <div class=".col-xs-18 col-md-12">
-    <h1 id="empty"></h1>
-<footer>
-<p id="footertext">Copyright 2018 Tim Hill</p>
-</footer>
-</div>
-</div>
+        <div class="row">
+            <div class=".col-xs-1.5 col-md-1"></div>
+            <span class="border">
+                <div class="portfolio .col-xs-12 col-md-8">
+            </span>
+            <h1 id="pagename">Portfolio</h1>
+            <hr>
 
+            <ul>
+                <ol class="portfolio-item">
+                    <a href="http://pill-pal-pro.herokuapp.com">
+                        <img class="imagep" vwidth="125" height="125" src="./Images/pilltrax.jpg" alt="Healthcare Projects">
+                        <h2 class="itemname img-responsive">Pill Trax</h2>
+                    </a>
+                </ol>
+                <ol class="portfolio-item">
+                    <a href="https://peakcodes.github.io/MyCharityConnection/">
+                        <img class="imagep" width="200" height="125" src="./Images/charrityconnection.svg" alt="Non-Profit Work">
+                        <h2 class="itemname img-responsive">MyCharityConnection</h2>
+                    </a>
+                </ol>
+                <ol class="portfolio-item">
+                    <a href="https://guarded-fortress-57011.herokuapp.com/">
+                        <img class="imagep" width="200" height="125" src="./Images/cryptogolf.png" alt="Financials">
+                        <h2 class="itemname img-responsive">Crtypto Golf</h2>
+                    </a>
+                </ol>
+                <ol class="portfolio-item">
+                        <a href="https://www.tradingview.com/u/Ski4ever123/#published-charts">
+                            <img class="imagep" width="200" height="125" src="./Images/bitcoin-a-new-paradigm-1024x687.jpg" alt="Financials">
+                            <h2 class="itemname img-responsive">Techinal Analysis</h2>
+                        </a>
+                </ol>
+                <ol class="portfolio-item">
+                    <a href="https://git.heroku.com/nytscrapper.git">
+                        <img class="imagep" width="200" height="125" src="./Images/btcscrape.jpeg" alt="">
+                        <h2 class="itemname img-responsive">BTC Scrapper</h2>
+                    </a>
+                </ol>
+                <ol class="portfolio-item">
+                    <a href="https://github.com/peakcodes/liri-node-app">
+                        <img class="imagep" vwidth="200" height="125" class="imageport" src="./Images/microphone.png" alt="liri app">
+                        <h2 class="itemname img-responsive">Liri Node App</h2>
+                    </a>
+                </ol>
+            </ul>
+            </span>
+            </div>
+
+            <div class="connectm .col-xs-4.5 col-md-3">
+                <h3 class="connect">Connect with me</h3>
+                <hr>
+                <a href="https://github.com/peakcodes">
+                    <img class="links img-rounded" width="50" height="40" src="./Images/github-mark.png">
+                </a>
+                <a href="https://www.linkedin.com/in/tim-hill-66141222">
+                    <img class="links img-rounded" width="50" height="40" src="./Images/square-linkedin-512.png">
+                </a>
+                <a href="https://stackoverflow.com/users/9284788/tim-h">
+                    <img class="links img rounded" width="50" height="40" src="./Images/stackoverflow.png">
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class=".col-xs-18 col-md12">
+                <h1 id="empty"></h1>
+                <footer>
+                    <p id="footertext">Copyright 2018 Tim Hill</p>
+                </footer>
+            </div>
+        </div>
 
 </body>
+
 </html>
